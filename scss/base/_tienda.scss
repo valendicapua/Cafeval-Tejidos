@@ -1,0 +1,38 @@
+
+@import 'colores';
+@import 'extends';
+
+.TOPS {
+    border-radius: 12px;
+    background-color: nth($colores, 5);
+    margin: 10px;
+    @extend %articulos;
+    
+        img{
+             margin: 5px;
+            width: 150px;
+            height: 150px;
+    }  
+}
+.PONCHOS{
+    border-radius: 12px;
+    background-color: nth($colores, 5);
+    margin: 10px;
+    @extend %articulos;
+    img{
+        margin: 5px;
+        width: 150px;
+        height: 150px;
+    }
+}
+.SACOS{
+    border-radius: 12px;
+    background-color: nth($colores, 5);
+    margin: 10px;
+    @extend %articulos;
+    img{
+        margin: 5px;
+        width: 150px;
+        height: 150px;
+    }
+}

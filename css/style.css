@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/*DISEÑO DE LA PAGINA*/
+/* Importo fuente de Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+body {
+  background-color: #eeeeee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/*FIN DE DISEÑO BASE DE LA PAGINA*/
+/*Titulo*/
+.titulo {
+  background-color: #393e46;
+}
+.titulo h1 {
+  padding: 10px 0 !important;
+  color: #00adb5;
+  text-align: center;
+  /*AVATAR DEL USUARIO*/
+}
+.titulo h1 a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: right;
+}
+
+/*NavBar*/
+.navbar {
+  background-color: #393e46;
+}
+
+.navegacion {
+  background-color: #393e46;
+  margin: 20px 0;
+}
+
+.SACOS, .PONCHOS, .TOPS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+/*Contenido de la pagina*/
+.contenido p {
+  margin-top: 20px;
+}
+
+.fondo-productos {
+  padding: 10px 0;
+  color: #00adb5;
+  background-color: #393e46;
+}
+
+.SACOS, .PONCHOS, .TOPS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.TOPS {
+  border-radius: 12px;
+  background-color: #646f6f;
+  margin: 10px;
+}
+.TOPS img {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.PONCHOS {
+  border-radius: 12px;
+  background-color: #646f6f;
+  margin: 10px;
+}
+.PONCHOS img {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.SACOS {
+  border-radius: 12px;
+  background-color: #646f6f;
+  margin: 10px;
+}
+.SACOS img {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1151px) {
+  .titulo p {
+    color: #00adb5;
+  }
+}
+@media only screen and (min-width: 1152px) {
+  .titulo p {
+    color: #aad8d3;
+  }
+}
+
+/* ANIMACION TITULO PRODUCTOS*/
+.productos {
+  -webkit-transform: translate(1.5s);
+  -o-transform: translate(1.5s);
+  -moz-transform: translate(1.5s);
+  transform: translate(1.5s);
+}
+
+.productos:hover {
+  -webkit-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+/* ANIMACION LOGO WPP*/
+.fixed {
+  -webkit-transform: translate(1.5s);
+  -o-transform: translate(1.5s);
+  -moz-transform: translate(1.5s);
+  transform: translate(1.5s);
+}
+
+.fixed:hover {
+  -webkit-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #393e46;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer div {
+  margin: 20px;
+  align-items: center;
+}
+.footer div a {
+  text-decoration: none;
+}
+.footer div a img {
+  width: 40px;
+  border-radius: 40px;
+  margin: 5px;
+}
+
+/*LOGO WPP*/
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.fixed a img {
+  width: 70px;
+  border-radius: 40px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1151px) {
+  .titulo p {
+    color: #00adb5;
+  }
+}
+@media only screen and (min-width: 1152px) {
+  .titulo p {
+    color: #aad8d3;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

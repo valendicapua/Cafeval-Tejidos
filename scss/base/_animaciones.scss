@@ -1,0 +1,17 @@
+
+@import 'mixin';
+
+/* ANIMACION TITULO PRODUCTOS*/
+.productos{
+    @include prefijos(translate(1.5s))
+}
+.productos:hover{
+    @include prefijos(scale(1.25));
+}
+/* ANIMACION LOGO WPP*/
+.fixed {
+    @include prefijos(translate(1.5s))
+}
+.fixed:hover {
+    @include prefijos(scale(1.25))
+}

@@ -1,0 +1,16 @@
+@import 'colores';
+@import 'extends';
+
+/*Contenido de la pagina*/
+.contenido{
+    @extend %presentacion;
+    p{
+        margin-top: 20px;
+    }
+}
+
+.fondo-productos{
+    padding: 10px 0;
+    color: nth($colores, 4);
+    background-color: nth($colores, 2);
+}

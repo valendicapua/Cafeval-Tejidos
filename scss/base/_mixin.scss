@@ -1,0 +1,34 @@
+@import 'colores';
+
+@mixin prefijos($propiedad) {
+    -webkit-transform: $propiedad;
+    -o-transform: $propiedad;
+    -moz-transform: $propiedad;
+    transform: $propiedad;
+}
+
+@mixin respond-to($media){
+    @if $media == ph {
+        @media only screen and (min-width:300px) and (max-width: 1151px) {
+            @content;
+        }
+    }
+    @else if $media == dt {
+        @media only screen and (min-width:1152px) {
+            @content;
+        }
+    }
+}
+
+.titulo {
+    @include respond-to(ph){
+        p{
+            color: nth($colores, 4);
+        }
+    }
+    @include respond-to(dt){
+        p{
+            color: nth($colores, 3);
+        }
+    }
+}

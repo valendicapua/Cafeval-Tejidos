@@ -1,0 +1,37 @@
+@import '../base/colores';
+
+
+/*FOOTER*/
+.footer{
+    background-color: nth($colores, 2);
+    text-align: center;
+    margin-top: 20px ;
+
+        div{
+            margin: 20px;
+            align-items: center;
+        
+            a{
+                text-decoration: none;
+                
+                img{
+                    width: 40px; 
+                    border-radius: 40px; 
+                    margin: 5px;
+                }
+            }
+        }
+    }
+/*LOGO WPP*/
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    a{
+        img{
+            width: 70px; 
+            border-radius: 40px
+        }
+    }
+}

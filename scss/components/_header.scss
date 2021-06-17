@@ -1,0 +1,32 @@
+@import '../base/colores';
+
+/*Titulo*/
+.titulo{
+    background-color: nth($colores, 2);
+
+    h1 {
+        padding: 10px 0 !important;
+        color: nth($colores, 4);
+        text-align: center;
+            
+        /*AVATAR DEL USUARIO*/
+        a{
+            img{
+                width:50px;
+                height:50px;
+                border-radius: 50%;
+                float: right;
+            }
+        }
+    }
+}
+
+/*NavBar*/
+.navbar{
+    background-color: nth($colores, 2);
+}
+
+.navegacion{
+    background-color: nth($colores, 2);
+    margin: 20px 0;
+}

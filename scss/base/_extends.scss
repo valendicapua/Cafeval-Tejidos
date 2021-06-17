@@ -1,0 +1,15 @@
+@import 'colores';
+
+%articulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+%presentacion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
