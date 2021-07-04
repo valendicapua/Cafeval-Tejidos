@@ -1,9 +1,9 @@
 @charset "UTF-8";
-/*DISEÑO DE LA PAGINA*/
 /* Importo fuente de Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+/*DISEÑO DE LA PAGINA*/
 body {
-  background-color: #eeeeee;
+  background-color: #F4ACB7;
 }
 
 * {
@@ -15,11 +15,11 @@ body {
 /*FIN DE DISEÑO BASE DE LA PAGINA*/
 /*Titulo*/
 .titulo {
-  background-color: #393e46;
+  background-color: #9D8189;
 }
 .titulo h1 {
   padding: 10px 0 !important;
-  color: #00adb5;
+  color: #D8E2DC;
   text-align: center;
   /*AVATAR DEL USUARIO*/
 }
@@ -32,12 +32,16 @@ body {
 
 /*NavBar*/
 .navbar {
-  background-color: #393e46;
+  background-color: #9D8189;
 }
 
 .navegacion {
-  background-color: #393e46;
+  background-color: #9D8189;
   margin: 20px 0;
+}
+
+.menu {
+  margin-left: auto;
 }
 
 .SACOS, .PONCHOS, .TOPS {
@@ -52,18 +56,27 @@ body {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 20px;
 }
 
 /*Contenido de la pagina*/
 .contenido p {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .fondo-productos {
   padding: 10px 0;
-  color: #00adb5;
-  background-color: #393e46;
+  color: #D8E2DC;
+  background-color: #9D8189;
+}
+
+.card {
+  background-color: #9D8189;
+  margin-top: 5px;
+}
+
+.card-title, .btn {
+  color: #D8E2DC;
 }
 
 .SACOS, .PONCHOS, .TOPS {
@@ -78,15 +91,16 @@ body {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 20px;
 }
 
 .TOPS {
   border-radius: 12px;
-  background-color: #646f6f;
+  background-color: #9D8189;
   margin: 10px;
 }
 .TOPS img {
+  border-radius: 12px;
   margin: 5px;
   width: 150px;
   height: 150px;
@@ -94,10 +108,11 @@ body {
 
 .PONCHOS {
   border-radius: 12px;
-  background-color: #646f6f;
+  background-color: #9D8189;
   margin: 10px;
 }
 .PONCHOS img {
+  border-radius: 12px;
   margin: 5px;
   width: 150px;
   height: 150px;
@@ -105,59 +120,46 @@ body {
 
 .SACOS {
   border-radius: 12px;
-  background-color: #646f6f;
+  background-color: #9D8189;
   margin: 10px;
 }
 .SACOS img {
+  border-radius: 12px;
   margin: 5px;
   width: 150px;
   height: 150px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 1151px) {
-  .titulo p {
-    color: #00adb5;
-  }
-}
-@media only screen and (min-width: 1152px) {
-  .titulo p {
-    color: #aad8d3;
-  }
-}
-
 /* ANIMACION TITULO PRODUCTOS*/
 .productos {
-  -webkit-transform: translate(1.5s);
-  -o-transform: translate(1.5s);
-  -moz-transform: translate(1.5s);
-  transform: translate(1.5s);
+  transition: all 1s;
 }
 
 .productos:hover {
-  -webkit-transform: scale(1.25);
-  -o-transform: scale(1.25);
-  -moz-transform: scale(1.25);
   transform: scale(1.25);
 }
 
 /* ANIMACION LOGO WPP*/
 .fixed {
-  -webkit-transform: translate(1.5s);
-  -o-transform: translate(1.5s);
-  -moz-transform: translate(1.5s);
-  transform: translate(1.5s);
+  transition: all 1s;
 }
 
 .fixed:hover {
-  -webkit-transform: scale(1.25);
-  -o-transform: scale(1.25);
-  -moz-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+/*Animacion links*/
+.nav-link {
+  transition: all 1s;
+}
+
+.nav-link:hover {
   transform: scale(1.25);
 }
 
 /*FOOTER*/
 .footer {
-  background-color: #393e46;
+  background-color: #9D8189;
   text-align: center;
   margin-top: 20px;
 }
@@ -185,15 +187,28 @@ body {
   border-radius: 40px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 1151px) {
-  .titulo p {
-    color: #00adb5;
-  }
+.TOPS, .PONCHOS, .SACOS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-@media only screen and (min-width: 1152px) {
-  .titulo p {
-    color: #aad8d3;
-  }
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.parrafo {
+  background-color: #9D8189;
+  color: #FFFFFF;
+}
+
+.video {
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,11 +2,11 @@
 
 /*Titulo*/
 .titulo{
-    background-color: nth($colores, 2);
+    background-color: nth($colores, 5);
 
     h1 {
         padding: 10px 0 !important;
-        color: nth($colores, 4);
+        color: nth($colores, 1);
         text-align: center;
             
         /*AVATAR DEL USUARIO*/
@@ -23,10 +23,13 @@
 
 /*NavBar*/
 .navbar{
-    background-color: nth($colores, 2);
+    background-color: nth($colores, 5);
 }
 
 .navegacion{
-    background-color: nth($colores, 2);
+    background-color: nth($colores, 5);
     margin: 20px 0;
+}
+.menu{
+    margin-left: auto;
 }

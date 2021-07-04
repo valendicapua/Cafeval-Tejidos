@@ -1,10 +1,10 @@
 @import '../base/colores';
-/*DISEÑO DE LA PAGINA*/
 /* Importo fuente de Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
+/*DISEÑO DE LA PAGINA*/
 body {
-    background-color: nth($colores, 1);
+    background-color: nth($colores, 4);
   }
   
   * {

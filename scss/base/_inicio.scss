@@ -5,12 +5,19 @@
 .contenido{
     @extend %presentacion;
     p{
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
 
 .fondo-productos{
     padding: 10px 0;
-    color: nth($colores, 4);
-    background-color: nth($colores, 2);
+    color: nth($colores, 1);
+    background-color: nth($colores, 5);
+}
+.card{
+    background-color: nth($colores, 5);
+    margin-top: 5px;
+}
+.card-title, .btn {
+    color: nth($colores, 1);
 }

@@ -1,0 +1,11 @@
+@import 'colores';
+@import 'extends';
+
+.parrafo{
+    background-color: nth($colores, 5);
+    color: nth($colores, 2);
+}
+       
+.video{
+    margin-top: 5px;
+}

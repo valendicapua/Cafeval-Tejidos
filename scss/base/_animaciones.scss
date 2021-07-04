@@ -1,17 +1,22 @@
 
-@import 'mixin';
-
 /* ANIMACION TITULO PRODUCTOS*/
 .productos{
-    @include prefijos(translate(1.5s))
+    transition: all 1s;
 }
 .productos:hover{
-    @include prefijos(scale(1.25));
+    transform: scale(1.25);
 }
 /* ANIMACION LOGO WPP*/
 .fixed {
-    @include prefijos(translate(1.5s))
+    transition: all 1s;
 }
 .fixed:hover {
-    @include prefijos(scale(1.25))
+    transform: scale(1.25);
+}
+/*Animacion links*/
+.nav-link{
+    transition: all 1s;
+}
+.nav-link:hover{
+    transform: scale(1.25);
 }
